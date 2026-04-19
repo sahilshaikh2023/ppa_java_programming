@@ -15,21 +15,14 @@ class Demo
               return A+B+C;
 
        }
-
-
-
 }
 class overloading {
-
        public static void main(String[] args) {
 
               Demo dobj = new Demo();
 
               System.out.println(dobj.Addition(10, 11));
               System.out.println(dobj.Addition(10.899, 20.24));
-              System.out.println(dobj.Addition(122, 11));
-
-              
-       }
-       
+              System.out.println(dobj.Addition(1.2f, 1.1f,1.1f));             
+       }     
 }
