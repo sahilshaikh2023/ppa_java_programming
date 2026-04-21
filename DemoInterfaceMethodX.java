@@ -30,7 +30,7 @@ class Marvellous implements circle
 }
 
 class DemoInterfaceMethodX
-
+{
        public static void main( String A[]){
 
 
